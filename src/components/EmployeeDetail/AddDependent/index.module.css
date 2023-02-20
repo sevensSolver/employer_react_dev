@@ -1,0 +1,16 @@
+.formLabel {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.formDiv {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.formitem {
+  width: 50%;
+}

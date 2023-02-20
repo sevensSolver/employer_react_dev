@@ -1,0 +1,84 @@
+.employeeDetail:nth-of-type(1) {
+  order: 1;
+  width: 34%;
+  margin-top: 10px;
+}
+
+.employeeDetail:nth-of-type(2) {
+  order: 2;
+  width: 65%;
+  margin-top: 10px;
+}
+
+#employeeDetail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5%;
+  flex: 1;
+}
+
+.dependentsSection:nth-of-type(1) {
+  width: 100%;
+}
+
+.planCover:nth-of-type(2) {
+  width: 50%;
+}
+
+.medicalCard:nth-of-type(3) {
+  width: 48%;
+}
+
+@media only screen and (max-width: 1200px) {
+  #employeeDetail {
+    justify-content: space-between;
+  }
+
+  .employeeDetail:nth-of-type(1) {
+    width: 100%;
+    order: 1;
+  }
+
+  .employeeDetail:nth-of-type(2) {
+    order: 4;
+    width: 38%;
+  }
+
+  .dependentsSection:nth-of-type(1) {
+    margin-top: 20px;
+    order: 1;
+    width: 100%;
+  }
+
+  .planCover:nth-of-type(2) {
+    margin-top: 20px;
+    width: 55%;
+    order: 2;
+  }
+
+  .medicalCard:nth-of-type(3) {
+    margin-top: 20px;
+    width: 33%;
+    order: 3;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #employeeDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .planCover:nth-of-type(2) {
+    margin-top: 20px;
+    width: 100%;
+    order: 2;
+  }
+
+  .medicalCard:nth-of-type(3) {
+    margin-top: 20px;
+    width: 60%;
+    order: 3;
+  }
+}

@@ -1,0 +1,170 @@
+.contain {
+  width: 85%;
+  margin: 10px auto 0px auto;
+  overflow: scroll;
+}
+
+.sideBar {
+  width: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3ab44d;
+  transition: all 300ms linear;
+  gap: 15%;
+}
+
+.sideBarOpen {
+  width: 12.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3ab44d;
+  transition: all 300ms linear;
+  gap: 15%;
+}
+
+.sideBarOpenTablet {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3ab44d;
+  transition: all 300ms linear;
+  gap: 15%;
+  height: 100%;
+}
+
+.logo {
+  height: 40px;
+  margin-top: 40px;
+}
+
+.logoOpen {
+  height: 35px;
+  margin-top: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50%;
+  justify-content: space-between;
+  margin-top: -40px;
+}
+
+.linksOpen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 50%;
+  justify-content: space-between;
+  margin-top: -40px;
+}
+
+.linkItem {
+  padding: 6px 14px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.linkItemActive {
+  padding: 6px 14px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #79cb83;
+  color: white;
+}
+
+.linksOpen .linkItemActive {
+  min-width: 150px;
+}
+
+.sidebarIcon {
+  height: 24px;
+}
+
+.sidebarIconActive {
+  height: 24px;
+}
+
+.sidebarIconActiveOpen {
+  height: 24px;
+}
+
+.linkItemActive:hover {
+  color: white;
+}
+
+.linkItemActive .sidebarIcon {
+  display: none;
+}
+
+.linkItem .sidebarIconActive {
+  display: none;
+}
+
+.linkItem .sidebarIconActiveOpen {
+  display: none;
+}
+
+.menuIcon {
+  display: none;
+}
+
+.logoutDivOpen {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 30px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.logoutDivOpenTablet {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.logoutDivClose {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .contain {
+    width: 95%;
+  }
+  .sideBar {
+    display: none;
+  }
+  .menuIcon {
+    display: grid;
+  }
+
+  .pageName {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .sideBar {
+    display: none;
+  }
+
+  .contain {
+    width: 95%;
+  }
+
+  .menuIcon {
+    display: grid;
+  }
+}

@@ -1,0 +1,98 @@
+.container {
+  max-width: 2920px;
+  height: 100vh;
+  display: flex;
+}
+
+.sectionOne {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../img/authBgImg.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.bannerText {
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.sectionTwo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.box {
+  width: 500px;
+  gap: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  margin-top: -15px;
+}
+
+.formText {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.fieldLabel {
+  margin-left: 20px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: #262626;
+}
+
+.logo {
+  width: 120px;
+}
+
+.forgotPassword {
+  float: right;
+  font-size: 14px;
+  margin-top: 8px !important;
+  text-decoration: underline;
+  color: #3ab44d;
+  cursor: pointer;
+}
+
+.verifyProfile {
+  float: right;
+  font-size: 14px;
+  margin-top: 8px !important;
+  color: black;
+}
+
+.forgotPassword:hover {
+  text-decoration: underline;
+  color: #3ab44d;
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.errorText {
+  color: red;
+  margin-top: -20px;
+  margin-bottom: -10;
+  width: 70%;
+}
+
+@media only screen and (max-width: 1500px) {
+}

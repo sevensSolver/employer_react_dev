@@ -1,0 +1,89 @@
+.table {
+  margin-top: 10px;
+}
+
+.searchIcon {
+  font-size: 21px;
+  margin-left: 10px;
+}
+
+.searchInput {
+  width: 69%;
+  margin-left: 5px;
+}
+
+.greenRound {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #2da028;
+}
+
+.pinkRound {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e00f65;
+}
+
+.voiletRound {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9f3ade;
+}
+
+.skyblue {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #3ab0de;
+}
+
+.borderBottom {
+  border-bottom: 0.5px solid rgb(189, 187, 187);
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  width: 80%;
+}
+
+.dropdownMarginLine {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.selectAdmin {
+  display: flex;
+  height: 350px;
+  width: 100%;
+}
+
+.selectAdminBox {
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.selectAdminList {
+  display: flex;
+  gap: 15px;
+  height: 195px;
+  overflow-y: auto;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.adminItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid #d4d4d4;
+  cursor: pointer;
+}
+
+.adminItem:hover {
+  background-color: #98d6a1;
+}

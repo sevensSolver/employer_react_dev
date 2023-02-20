@@ -1,0 +1,135 @@
+.policyContainer {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 60px;
+}
+
+.mainArea {
+  width: 70%;
+}
+
+.rightArea {
+  width: 28%;
+}
+
+.policyUtilizationBox {
+  gap: 15px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.financeBox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.planCover {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 310px;
+  margin-top: 25px;
+}
+
+.antCollapseBox {
+  width: 100%;
+  border-bottom: 1px solid #d4d4d4;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.summaryBox {
+  background-color: white;
+  width: 33%;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.policySummary {
+  display: flex;
+  height: 240px;
+  gap: 15px;
+}
+
+.summaryBoxTitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.policyTableStyle {
+  width: 69%;
+  margin-top: 20px;
+}
+
+.iconBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+}
+
+.iconBackgroundBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.iconBackgroundGreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #3ab44d;
+  color: white;
+  font-size: 10px;
+}
+
+.policyDate {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  .policyTableStyle {
+    width: 100%;
+  }
+
+  .policyContainer {
+    flex-wrap: wrap;
+  }
+
+  .mainArea {
+    width: 100%;
+  }
+
+  .rightArea {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+  }
+
+  .policyUtilizationBox {
+    width: 33%;
+    min-height: 170px;
+  }
+
+  .financeBox {
+    width: 33%;
+    margin-top: 0px;
+    min-height: 170px;
+  }
+}

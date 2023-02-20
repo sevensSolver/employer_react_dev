@@ -1,0 +1,21 @@
+.table {
+  margin-top: 30px;
+}
+
+.columnItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 32%;
+}
+
+.columnItemTitle {
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 0;
+  color: #020202;
+  font-weight: 300;
+}
