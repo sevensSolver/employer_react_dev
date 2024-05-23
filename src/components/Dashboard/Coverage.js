@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import styles from './index.module.css';
-import employees from '../../img/employees.png';
-import dependents from '../../img/dependants.png';
+import employees from '../../img/cards.png';
+import dependents from '../../img/benefits.png';
+import covid from '../../img/covid.png';
 import activationRate from '../../img/activationRate.png';
 import { getCoverageInfo } from '../../store/DashboardSlice';
 import { useDispatch, useSelector } from 'react-redux';
@@ -19,21 +20,22 @@ const ColumnItem = () => {
     {
       img: employees,
       color: '#3ab44d',
-      title: 'Employees',
+      title: 'My Cards',
       count: coverage?.num_of_employees,
     },
     {
       img: dependents,
       color: '#3ab44d',
-      title: 'Dependents',
+      title: 'My Benefits',
       count: coverage?.num_of_dependents,
     },
     {
-      img: activationRate,
-      color: '#f87d4e',
-      title: 'Activation Rate',
-      count: `${coverage?.activation_rate}%`,
+      img: covid,
+      color: '#3ab44d',
+      title: 'Covid Certificates',
+      count: coverage?.num_of_dependents,
     },
+   
   ];
 
   return (
@@ -42,6 +44,7 @@ const ColumnItem = () => {
         display: 'flex',
         alignItems: 'center',
         gap: 15,
+        marginTop:20
       }}
     >
       {data.map((item, index) => (

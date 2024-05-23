@@ -13,7 +13,7 @@ const PolicyUtilization = () => {
           height: 18,
         }}
       >
-        Policy Utilisation
+        Hospital Finder
       </h3>
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <div
@@ -23,7 +23,8 @@ const PolicyUtilization = () => {
             width: '40%',
           }}
         >
-          <Progress
+        <img  style={{'width':'100px','height':'100px'}} src={require('../../img/hospital.png')} />
+          {/* <Progress
             width={80}
             format={() => <div style={{ color: '#fd8d2d', fontWeight: 600 }}>85%</div>}
             trailColor="#a1d9a6"
@@ -32,7 +33,7 @@ const PolicyUtilization = () => {
               strokeColor: '#fd8d2d',
             }}
             type="circle"
-          />
+          /> */}
         </div>
         <div
           style={{
@@ -54,7 +55,7 @@ const PolicyUtilization = () => {
             >
               <ColorRound height={10} width={10} color="#a1d9a6" />
               <p style={{ color: 'gray', fontSize: 12, lineHeight: 1 }} className="mbZero">
-                Utilized
+                Clinics
               </p>
             </div>
             <div
@@ -67,7 +68,7 @@ const PolicyUtilization = () => {
             >
               <ColorRound height={10} width={10} color="#f86a30" />
               <p style={{ color: 'gray', fontSize: 12, lineHeight: 1 }} className="mbZero">
-                Triggers repricing
+                Hospitals
               </p>
             </div>
           </div>

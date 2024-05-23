@@ -5,6 +5,6 @@ export const baseUrl =
     ? 'https://service.edencaremedical.com/prod/api/v1'
     : process.env.REACT_APP_QA_URL === 'QA'
     ? 'https://service.edencaremedical.com/qa/api/v1'
-    : 'https://service.edencaremedical.com/qa/api/v1';
+    : 'https://service.edencaremedical.com/dev/api/v1';
 
 export const titleUrl = 'Employer Portal | Eden Care';

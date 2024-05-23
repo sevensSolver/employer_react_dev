@@ -1,5 +1,7 @@
 import Finances from './Finances';
 import Coverage from './Coverage';
+import EventCard from './EventCard';
+import WellnessCard from './WellnessCard';
 import Main from '../../template';
 import styles from './index.module.css';
 import ActionCenter from './ActionCenter';
@@ -12,9 +14,12 @@ const Index = () => {
     <Main pageName="Dashboard">
       <div className={styles.dashboardContainer}>
         <div className={styles.mainArea}>
-          <ActionCenter />
-          <Chart />
+          {/* <ActionCenter /> */}
+          <WellnessCard/>
+
+          {/* <Chart /> */}
           <Coverage />
+    <EventCard/>
         </div>
         <div className={styles.rightArea}>
           <AddEmployeeButton width="100%" />
